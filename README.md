@@ -34,6 +34,11 @@
 
 Скопируйте папку `skills/copywriter-a` туда, где ваш агент ищет скиллы. Для Claude Code это `~/.claude/skills/`.
 
+```bash
+git clone https://github.com/kachkanfim369-svg/russian-copywriter-skill.git
+cp -R russian-copywriter-skill/skills/copywriter-a ~/.claude/skills/
+```
+
 Лучше всего работает на сильных моделях с режимом рассуждений: Claude Opus или Sonnet, флагманский GPT с Thinking.
 
 ## Связь
